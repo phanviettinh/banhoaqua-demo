@@ -1,0 +1,31 @@
+.col {
+    padding: 0 8px;
+}
+
+.col-3 img {
+    width: 100%;
+    display: block;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+hr {
+    border: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.brt {
+    border-bottom: 1px solid #ddd;
+}
+
+@media (max-width:739px){
+    .col-3, .col-4 {
+        width: 100%;
+    }
+}
